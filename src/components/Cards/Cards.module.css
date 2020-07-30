@@ -1,0 +1,27 @@
+.container{
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 2% !important; 
+    /* we have to use !important with maetrial ui to make the above style work as we are not using the inline css */
+}
+
+.infected{
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+}
+
+@media(max-width: 770px){
+    .card {
+        margin: 2% 0 !important 
+        /* we use !important as card is a material ui component. */
+    }
+}
