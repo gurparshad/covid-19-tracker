@@ -1,4 +1,4 @@
-Visite teh project on https://covid19-tracker-gurparshad.netlify.app/
+Visit the project on https://covid19-tracker-gurparshad.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
